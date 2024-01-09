@@ -4,7 +4,7 @@ const transport = nodemailer.createTransport({
     service: 'gmail',
     auth: {
         email: 'meuemail',
-        pass: 'minhasenha' //jurou que eu ia colocar minha senha e email em publico pra todos os cururus espinhentos da area de programação virem
+        pass: 'minhasenha' 
     },
     tls: {
         rejectUnauthorized: false
